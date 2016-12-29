@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false"
+    android:background="@drawable/quiz">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:id="@+id/textView101"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Question3: What is 4+9 stupid stupid stupid stupid ?"
+            android:id="@+id/textView50"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="Yup"
+                android:background="#a8dff4"
+                android:id="@+id/button51"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="New Button"
+                android:background="#f83a3a"
+                android:id="@+id/button52"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="Thirteen"
+                android:background="#ffc641"
+                android:id="@+id/button53"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="New Button"
+                android:id="@+id/button54"
+                android:background="#d3e992"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="New Button"
+                android:id="@+id/button55"
+                android:background="#A1887F"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:text="New RadioButton"
+                android:id="@+id/radioButton56"
+                android:background="#FF9E80"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Next Question"
+                android:id="@+id/button57"
+                android:layout_gravity="center_horizontal" />
+
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>
